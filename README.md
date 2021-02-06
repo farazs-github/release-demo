@@ -21,26 +21,27 @@ The nanoMIPS Toolchain includes example code, source code, and documentation to 
 
 ## Codescape GNU Tools 2019.03-06 Binaries
 
+|Variant |Size|Checksum|
 |---------------|-----|--------|
-|Toolchain type | size| md5 sum|
-| Bare Metal Toolchain nanoMIPS32R6 |||
+|*Bare Metal Toolchain*|||
 |Linux x86 (.tar.gz) |	[116M]|	md5: e594e72ce0b4fb6b9b78b0e479e05b0e|
 |||sha256: 12481c124a03febb95186589bbc032b5ebd98c6bba39ae428a6eef5da1953e19
 |Linux x64 (.tar.gz)|	[114M]|	md5: 7fe67325f0aab90157e6310e468a8edf
 |||sha256: 1d15656188ee9cafb1bb922cdea7bd09970b3a28e6c12dc99cdc215da6681bac
 |Windows x86 (.tar.gz)|	[86M]|	md5: a8d5904a968ab5543dfe9ffa79f3d7e0
 |||sha256: 50698419121ee06a166193274e25bfc93394674284d0b991a4e16172427807d7
-|Windows x64 (.tar.gz)	|[89M]|	md5: a29097b962dc84f0b37fea6d4165294e
+|Windows x64 (.tar.gz)|	|[89M]|	md5: a29097b962dc84f0b37fea6d4165294e
 |||sha256: d3b14d37bb9becae315d8b2660220f20326b5880d7ed1f9e90f24e5568f836e9
-MUSL/Linux Toolchain nanoMIPS32R6
-Linux x86 (.tar.gz)	[130M]	md5: 81b611dc778ed19da948b3f559176f31
-sha256: e60b24ee8eaabbdcd1c904b39281d98b009dcd131634084cd0a1637ea13c1066
-Linux x64 (.tar.gz)	[129M]	md5: a5b471145c6cc50ca66065b037a0457e
-sha256: 58e68d1d80dedba57da343eda2830c9ae1bf5aa43d275b1348beeafb964e057f
-Windows x86 (.tar.gz)	[106M]	md5: 171bf4b15c8b3b73a9fcdfd170152435
-sha256: f791399493a7ea81360347b341780062b862d14f507b279372927ebd86f2429d
-Windows x64 (.tar.gz)	[109M]	md5: 9268e0513b34a3f77259cfb66cea3c43
-sha256: c87b84ad18a9bc3530538b850e234f675ef2d54aa4efde9a75636fd0dcb27197
+|*MUSL/Linux Toolchain nanoMIPS32R6*|||
+|Linux x86 (.tar.gz)|	[130M]|	md5: 81b611dc778ed19da948b3f559176f31|
+|||sha256: e60b24ee8eaabbdcd1c904b39281d98b009dcd131634084cd0a1637ea13c1066|
+|Linux x64 (.tar.gz)|	[129M]|	md5: a5b471145c6cc50ca66065b037a0457e|
+|||sha256: 58e68d1d80dedba57da343eda2830c9ae1bf5aa43d275b1348beeafb964e057f|
+|Windows x86 (.tar.gz)|	[106M]|	md5: 171bf4b15c8b3b73a9fcdfd170152435|
+|||sha256: f791399493a7ea81360347b341780062b862d14f507b279372927ebd86f2429d|
+|Windows x64 (.tar.gz)|	[109M]|	md5: 9268e0513b34a3f77259cfb66cea3c43|
+|||sha256: c87b84ad18a9bc3530538b850e234f675ef2d54aa4efde9a75636fd0dcb27197|
+
 Codescape GNU Tools 2019.03-06 Source
 Source Packages
 binutils-2019.03-06.src.tar.gz	[51M]	md5: 07aa0cfa6e5c50e6efd9c032e9408466
