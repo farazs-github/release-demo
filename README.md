@@ -21,6 +21,8 @@ The nanoMIPS Toolchain includes example code, source code, and documentation to 
 
 ## Codescape GNU Tools 2019.03-06 Binaries
 
+|Toolchain type | size| md5 sum|
+|---------------|-----|--------|
 | Bare Metal Toolchain nanoMIPS32R6 |||
 |Linux x86 (.tar.gz) |	[116M]|	md5: e594e72ce0b4fb6b9b78b0e479e05b0e|
 |||sha256: 12481c124a03febb95186589bbc032b5ebd98c6bba39ae428a6eef5da1953e19
