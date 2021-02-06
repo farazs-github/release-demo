@@ -12,8 +12,10 @@
 The nanoMIPS Toolchain includes example code, source code, and documentation to facilitate development of bare metal applications on nanoMIPS simulators and development boards. These toolchains provide compilers, linkers, libraries and utilities for building applications to run on nanoMIPS cores.
 
 ## Component	Description
-| GCC Bare Metal Toolchain | The Codescape GNU Tools for nanoMIPS Bare Metal. This is a software engineer's cross-development system for nanoMIPS processors, intended for statically linked embedded applications running on bare metal CPUs or light-weight operating systems.|
-|GCC Linux (MUSL) Toolchain | The Codescape GNU Tools for nanoMIPS Linux. For compiling Linux applications for Linux running on nanoMIPS cores.|
+GCC Bare Metal Toolchain
+:  GNU Tools for nanoMIPS Bare Metal. This is a software engineer's cross-development system for nanoMIPS processors, intended for statically linked embedded applications running on bare metal CPUs or light-weight operating systems.|
+GCC Linux (MUSL) Toolchain
+: GNU Tools for nanoMIPS Linux. For compiling Linux applications for Linux running on nanoMIPS cores.|
 
 # Release Notes
 
@@ -28,7 +30,7 @@ The nanoMIPS Toolchain includes example code, source code, and documentation to 
 |Linux x64 (.tar.gz)|	[114M]|	md5: 7fe67325f0aab90157e6310e468a8edf<br/>sha256: 1d15656188ee9cafb1bb922cdea7bd09970b3a28e6c12dc99cdc215da6681bac|
 |Windows x86 (.tar.gz)|	[86M]|	md5: a8d5904a968ab5543dfe9ffa79f3d7e0<br/>sha256: 50698419121ee06a166193274e25bfc93394674284d0b991a4e16172427807d7|
 |Windows x64 (.tar.gz)|[89M]|	md5: a29097b962dc84f0b37fea6d4165294e<br/>sha256: d3b14d37bb9becae315d8b2660220f20326b5880d7ed1f9e90f24e5568f836e9|
-|**MUSL/Linux Toolchain nanoMIPS32R6**|||
+|**MUSL/Linux Toolchain**|||
 |Linux x86 (.tar.gz)|	[130M]|	md5: 81b611dc778ed19da948b3f559176f31<br/>sha256: e60b24ee8eaabbdcd1c904b39281d98b009dcd131634084cd0a1637ea13c1066|
 |Linux x64 (.tar.gz)|	[129M]|	md5: a5b471145c6cc50ca66065b037a0457e<br/>sha256: 58e68d1d80dedba57da343eda2830c9ae1bf5aa43d275b1348beeafb964e057f|
 |Windows x86 (.tar.gz)|	[106M]|	md5: 171bf4b15c8b3b73a9fcdfd170152435<br/>sha256: f791399493a7ea81360347b341780062b862d14f507b279372927ebd86f2429d|
@@ -59,33 +61,18 @@ Previous Releases
 # License Agreements
 
 ### License Categories
-The components included in this SDK fall under multiple license agreements, details of which are given on this page.
+The components included in this SDK fall under multiple license agreements:
 
-Scroll down the page for full text of license agreements.
-
-Codescape MIPS SDK Professional License Agreements
-The nanoMIPS toolchain contains multiple products each with their own license agreements. The full text can be found at the following URL: https://codescape.mips.com/sdk/v2.0.0k/docs/license.html
-
-The applicable licenses are:
-
-* GPL v2 - QEMU
+* GPL v2 - QEMU, Linux
 * GPL v3.1 - GNU toolchain and gdb
-* MIT + BSD style Licenses - Newlib, smalllib, tinylib, musl and libgloss/MIPS HAL
+* MIT + BSD style Licenses - Newlib, smallclib, tinyclib, libgloss/MIPS HAL and musl-libc
 
 The software included in this product contains copyrighted software that is licensed under the GPLv3. A copy of that license is included in the source. You may obtain the complete Corresponding Source code above.
 
 Licenses for each component are installed as part of the package, are listed in the getting started guide and can be referred to again after the install.
 
 *Disclaimer of Warranties and Limitation of Liability*
-All software and downloads provided as part of the Codescape MIPS SDK are available under the following conditions.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL MIPS TECH, LLC OR ANY OF ITS AFFILIATES OR LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
-GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
-LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
-THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+**FIXME**
 
 ## License Agreements
 ### GPL v3.1
