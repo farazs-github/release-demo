@@ -24,10 +24,8 @@ The nanoMIPS Toolchain includes example code, source code, and documentation to 
 |Variant |Size|Checksum|
 |---------------|-----|--------|
 |**Bare Metal Toolchain**|||
-|Linux x86 (.tar.gz) |	[116M]|	md5: e594e72ce0b4fb6b9b78b0e479e05b0e|
-|||sha256: 12481c124a03febb95186589bbc032b5ebd98c6bba39ae428a6eef5da1953e19|
-|Linux x64 (.tar.gz)|	[114M]|	md5: 7fe67325f0aab90157e6310e468a8edf|
-|||sha256: 1d15656188ee9cafb1bb922cdea7bd09970b3a28e6c12dc99cdc215da6681bac|
+|Linux x86 (.tar.gz) |	[116M]|	md5: e594e72ce0b4fb6b9b78b0e479e05b0e <br />sha256: 12481c124a03febb95186589bbc032b5ebd98c6bba39ae428a6eef5da1953e19|
+|Linux x64 (.tar.gz)|	[114M]|	md5: 7fe67325f0aab90157e6310e468a8edf <br />sha256: 1d15656188ee9cafb1bb922cdea7bd09970b3a28e6c12dc99cdc215da6681bac|
 |Windows x86 (.tar.gz)|	[86M]|	md5: a8d5904a968ab5543dfe9ffa79f3d7e0|
 |||sha256: 50698419121ee06a166193274e25bfc93394674284d0b991a4e16172427807d7|
 |Windows x64 (.tar.gz)|[89M]|	md5: a29097b962dc84f0b37fea6d4165294e|
