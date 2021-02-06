@@ -19,49 +19,34 @@ The nanoMIPS Toolchain includes example code, source code, and documentation to 
 
 # Downloads
 
-## Codescape GNU Tools 2019.03-06 Binaries
+## nanoMIPS GNU Tools 2019.03-06 Binaries
 
 |Variant |Size|Checksum|
 |---------------|-----|--------|
 |**Bare Metal Toolchain**|||
-|Linux x86 (.tar.gz) |	[116M]|	md5: e594e72ce0b4fb6b9b78b0e479e05b0e <br />sha256: 12481c124a03febb95186589bbc032b5ebd98c6bba39ae428a6eef5da1953e19|
-|Linux x64 (.tar.gz)|	[114M]|	md5: 7fe67325f0aab90157e6310e468a8edf <br />sha256: 1d15656188ee9cafb1bb922cdea7bd09970b3a28e6c12dc99cdc215da6681bac|
-|Windows x86 (.tar.gz)|	[86M]|	md5: a8d5904a968ab5543dfe9ffa79f3d7e0|
-|||sha256: 50698419121ee06a166193274e25bfc93394674284d0b991a4e16172427807d7|
-|Windows x64 (.tar.gz)|[89M]|	md5: a29097b962dc84f0b37fea6d4165294e|
-|||sha256: d3b14d37bb9becae315d8b2660220f20326b5880d7ed1f9e90f24e5568f836e9|
+|Linux x86 (.tar.gz) |	[116M]|	md5: e594e72ce0b4fb6b9b78b0e479e05b0e<br/>sha256: 12481c124a03febb95186589bbc032b5ebd98c6bba39ae428a6eef5da1953e19|
+|Linux x64 (.tar.gz)|	[114M]|	md5: 7fe67325f0aab90157e6310e468a8edf<br/>sha256: 1d15656188ee9cafb1bb922cdea7bd09970b3a28e6c12dc99cdc215da6681bac|
+|Windows x86 (.tar.gz)|	[86M]|	md5: a8d5904a968ab5543dfe9ffa79f3d7e0<br/>sha256: 50698419121ee06a166193274e25bfc93394674284d0b991a4e16172427807d7|
+|Windows x64 (.tar.gz)|[89M]|	md5: a29097b962dc84f0b37fea6d4165294e<br/>sha256: d3b14d37bb9becae315d8b2660220f20326b5880d7ed1f9e90f24e5568f836e9|
 |**MUSL/Linux Toolchain nanoMIPS32R6**|||
-|Linux x86 (.tar.gz)|	[130M]|	md5: 81b611dc778ed19da948b3f559176f31|
-|||sha256: e60b24ee8eaabbdcd1c904b39281d98b009dcd131634084cd0a1637ea13c1066|
-|Linux x64 (.tar.gz)|	[129M]|	md5: a5b471145c6cc50ca66065b037a0457e|
-|||sha256: 58e68d1d80dedba57da343eda2830c9ae1bf5aa43d275b1348beeafb964e057f|
-|Windows x86 (.tar.gz)|	[106M]|	md5: 171bf4b15c8b3b73a9fcdfd170152435|
-|||sha256: f791399493a7ea81360347b341780062b862d14f507b279372927ebd86f2429d|
-|Windows x64 (.tar.gz)|	[109M]|	md5: 9268e0513b34a3f77259cfb66cea3c43|
-|||sha256: c87b84ad18a9bc3530538b850e234f675ef2d54aa4efde9a75636fd0dcb27197|
+|Linux x86 (.tar.gz)|	[130M]|	md5: 81b611dc778ed19da948b3f559176f31<br/>sha256: e60b24ee8eaabbdcd1c904b39281d98b009dcd131634084cd0a1637ea13c1066|
+|Linux x64 (.tar.gz)|	[129M]|	md5: a5b471145c6cc50ca66065b037a0457e<br/>sha256: 58e68d1d80dedba57da343eda2830c9ae1bf5aa43d275b1348beeafb964e057f|
+|Windows x86 (.tar.gz)|	[106M]|	md5: 171bf4b15c8b3b73a9fcdfd170152435<br/>sha256: f791399493a7ea81360347b341780062b862d14f507b279372927ebd86f2429d|
+|Windows x64 (.tar.gz)|	[109M]|	md5: 9268e0513b34a3f77259cfb66cea3c43<br/>sha256: c87b84ad18a9bc3530538b850e234f675ef2d54aa4efde9a75636fd0dcb27197|
 
-Codescape GNU Tools 2019.03-06 Source
-Source Packages
-binutils-2019.03-06.src.tar.gz	[51M]	md5: 07aa0cfa6e5c50e6efd9c032e9408466
-sha256: 414cb8eba5b5d0f833ce9adde2ce1d6df3ce56fcba5e0d39814b3d770a33cc9e
-gdb-2019.03-06.src.tar.gz	[51M]	md5: e2c20579592240048644656a836d9e5e
-sha256: d05c1631d6cf52d3431ba6e95c176fb5e3fa45ca35b401d68fac46549b464c8c
-gold-2019.03-06.src.tar.gz	[52M]	md5: 2dc9c624141496554e0a98dfbd41b93c
-sha256: d777ae2871efa2d5ab8e141730a65df4b69d7f99ccf8f69e118eb589d1f0a6a0
-newlib-2019.03-06.src.tar.gz	[19M]	md5: 1509c1238d5d645e28c5409af454c80d
-sha256: b9dc7ea07e3572a2e40cf6318c2724189a04e5ac6b43f3e9bedcadd3fdea8960
-gcc-2019.03-06.src.tar.gz	[112M]	md5: 4cb2116503f022fa018847444281051e
-sha256: bd2b4cfcdfff58e5099f6c44c21db5b2bbbdf158adc7d70dc212996e0de19e1d
-smallclib-2019.03-06.src.tar.gz	[1M]	md5: 52a35f283565a2fd8f34c63d2694cd85
-sha256: 4c0cb33f32e9616178a51848fba3c563b0d8bdb641622c1e1e04d462c306c5e7
-qemu-2019.03-06.src.tar.gz	[11M]	md5: 547117e65d51633967c3f2ab17a1da0e
-sha256: c483a9480c8282bd790687f824e18350d6c8ca2378dd47484fc4775d56ed9b94
-musl-2019.03-06.src.tar.gz	[1M]	md5: 5d222f9465a383a930077cfb69dbbb15
-sha256: f6cc53f1576acbeb0daffed8f90af01f094b8e17ec49c7e069e24b9666c2681a
-packages-2019.03-06.src.tar.gz	[180M]	md5: 242166ff91a976ccbd0d63503717ff56
-sha256: ed92118c3ee0c757d4a4ac2dcadd12d6a9de03390d23c64e2cc499be71dabcc8
-python-2019.03-06.src.tar.gz	[16M]	md5: 2aa2007e8b2458fe2dc54b38bd1fd8ed
-sha256: 5c6a089525a0e89e5ee49af4d7d12690483cae4ad5ca8867c9f7b8c0ae17a0d3
+## nanoMIPS GNU Tools 2019.03-06 Source
+|Source Package |Size|Checksum|
+|---------------|-----|--------|
+|binutils-2019.03-06.src.tar.gz|	[51M]|	md5: 07aa0cfa6e5c50e6efd9c032e9408466<br/>sha256: 414cb8eba5b5d0f833ce9adde2ce1d6df3ce56fcba5e0d39814b3d770a33cc9e|
+|gdb-2019.03-06.src.tar.gz|	[51M]|	md5: e2c20579592240048644656a836d9e5e<br/>sha256: d05c1631d6cf52d3431ba6e95c176fb5e3fa45ca35b401d68fac46549b464c8c|
+|gold-2019.03-06.src.tar.gz|	[52M]|	md5: 2dc9c624141496554e0a98dfbd41b93c<br/>sha256: d777ae2871efa2d5ab8e141730a65df4b69d7f99ccf8f69e118eb589d1f0a6a0|
+|newlib-2019.03-06.src.tar.gz|	[19M]|	md5: 1509c1238d5d645e28c5409af454c80d<br/>sha256: b9dc7ea07e3572a2e40cf6318c2724189a04e5ac6b43f3e9bedcadd3fdea8960|
+|gcc-2019.03-06.src.tar.gz|	[112M]|	md5: 4cb2116503f022fa018847444281051e<br/>sha256: bd2b4cfcdfff58e5099f6c44c21db5b2bbbdf158adc7d70dc212996e0de19e1d|
+|smallclib-2019.03-06.src.tar.gz|	[1M]|	md5: 52a35f283565a2fd8f34c63d2694cd85<br/>sha256: 4c0cb33f32e9616178a51848fba3c563b0d8bdb641622c1e1e04d462c306c5e7|
+|qemu-2019.03-06.src.tar.gz|	[11M]|	md5: 547117e65d51633967c3f2ab17a1da0e<br/>sha256: c483a9480c8282bd790687f824e18350d6c8ca2378dd47484fc4775d56ed9b94|
+|musl-2019.03-06.src.tar.gz|	[1M]|	md5: 5d222f9465a383a930077cfb69dbbb15<br/>sha256: f6cc53f1576acbeb0daffed8f90af01f094b8e17ec49c7e069e24b9666c2681a|
+|packages-2019.03-06.src.tar.gz|	[180M]|	md5: 242166ff91a976ccbd0d63503717ff56<br/>sha256: ed92118c3ee0c757d4a4ac2dcadd12d6a9de03390d23c64e2cc499be71dabcc8|
+|python-2019.03-06.src.tar.gz|	[16M]|	md5: 2aa2007e8b2458fe2dc54b38bd1fd8ed<br/>sha256: 5c6a089525a0e89e5ee49af4d7d12690483cae4ad5ca8867c9f7b8c0ae17a0d3|
 
 Previous Releases
 2019.03-05	2019.03-04	2019.03-03	2019.03-02	2019.03-01
